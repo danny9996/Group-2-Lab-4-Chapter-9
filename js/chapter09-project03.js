@@ -14,9 +14,9 @@ document.getElementById("highlight").addEventListener("click", function(){
 
 document.getElementById("hide").addEventListener("click", function(){
 
-    while(document.geteleByClassName("hoverNode").length > 0){
+    while(document.getElementsByClassName("hoverNode").length > 0){
     
-        var spanNodes = document.geteleByClassName("hoverNode");
+        var spanNodes = document.getElementsByClassName("hoverNode");
         
         for (var i = 0; i < spanNodes.length; i++) {
         
